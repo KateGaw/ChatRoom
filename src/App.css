@@ -1,0 +1,43 @@
+.chat {
+    position: relative;
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 500px;
+    height: 90vh;
+}
+
+.chat-messages {
+    height: 62vh;
+    overflow: auto;
+}
+
+.chat-message {
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.chat-input_form {
+    position: absolute;
+    top: 72%;
+    left: 10px;
+    width: 100%;
+}
+
+.chat-textarea {
+    margin: auto;
+    resize: none;
+    height: 90px;
+    width: 91%;
+    padding: 10px;
+}
+
+.chat-submit_button {
+    float: right;
+    margin-right: 4.5%;
+    width: 90px;
+    height: 34px;
+    font-size: 16px;
+}
